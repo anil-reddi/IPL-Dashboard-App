@@ -1,0 +1,121 @@
+.latest-match-card-container {
+  width: 100%;
+  margin-top: 22px;
+}
+.latest-match-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 8px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.latest-match-logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-logo-container {
+    width: 60%;
+  }
+}
+.latest-match-details-main {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-details-main {
+    width: 100%;
+  }
+}
+.match-team-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .match-team-name {
+    font-size: 22px;
+  }
+}
+.match-details {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .match-details {
+    font-size: 18px;
+  }
+}
+.latest-match-logo {
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-logo {
+    width: 200px;
+  }
+}
+.latest-match-details-info {
+  margin-top: 20px;
+  padding: 0px 16px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-details-info {
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 30px;
+    width: 33%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .match-info-item {
+    width: 44%;
+    border: 0.5px solid #fff9fc;
+    border-radius: 22px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 100px;
+    max-height: 200px;
+  }
+}
+.match-label {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .match-label {
+    font-size: 18px;
+  }
+}
+.match-value {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .match-value {
+    font-size: 14px;
+  }
+}
